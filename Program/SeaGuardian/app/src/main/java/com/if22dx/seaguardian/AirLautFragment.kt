@@ -17,7 +17,7 @@ class AirLautFragment : Fragment() {
         val view = inflater.inflate(R.layout.fragment_air_laut, container, false)
 
         // Find the TextView and set the text
-        val textViewInfo = view.findViewById<TextView>(R.id.textViewInfo)
+        val textViewInfo = view.findViewById<TextView>(R.id.InfoAirLaut)
         textViewInfo.text = """
         Membedakan Air Laut Bersih dan Kotor :
 
