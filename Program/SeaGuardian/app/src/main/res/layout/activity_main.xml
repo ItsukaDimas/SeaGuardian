@@ -12,20 +12,42 @@
         android:id="@+id/tablayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="075E53"
+        android:background="#5A72A0"
         app:tabIndicatorColor="@color/white"
         app:tabSelectedTextColor="@color/white"
         >
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/laut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Air Laut"
+            >
+        </com.google.android.material.tabs.TabItem>
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/hewan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hewan Laut"
+            >
+        </com.google.android.material.tabs.TabItem>
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/karang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terumbu Karang"
+            >
+        </com.google.android.material.tabs.TabItem>
+
     </com.google.android.material.tabs.TabLayout>
 
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </FrameLayout>
 
 </LinearLayout>
