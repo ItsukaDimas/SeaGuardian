@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     //private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+        super.onCreate(savgiedInstanceState)
         //binding = ActivityMainBinding.inflate(layoutInflater)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
